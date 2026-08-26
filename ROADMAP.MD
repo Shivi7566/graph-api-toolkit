@@ -6,7 +6,7 @@ Each folder contains one `.md` file with a table of v1.0/beta endpoints and desc
 ## Identity
 - [x] Users
 - [x] Groups
-- [ ] ExternalIdentities
+- [x] ExternalIdentities
 - [ ] RolesAndAdministrators
 - [ ] AdministrativeUnits
 - [ ] DelegatedAdminPartners
