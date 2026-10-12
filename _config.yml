@@ -1,8 +1,8 @@
 title: Graph API & Entra ID Toolkit — Blog
 description: Notes, guides, and lessons from building a Microsoft Entra ID / Graph API reference toolkit.
 theme: minima
-baseurl: "/graph-api-toolkit"
-url: "https://shivi7566.github.io"
+baseurl: ""
+url: "https://graph.cloudknowledge.in"
 
 minima:
   skin: dark

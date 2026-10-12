@@ -33,6 +33,41 @@ Designed for Cloud Engineers, Identity Architects, and SOC Analysts operating in
 
 ---
 
+## 📂 Microsoft Graph API Endpoint Reference Index
+
+This repository provides exhaustive mapping of Microsoft Entra ID admin categories to their underlying Microsoft Graph v1.0 and Beta REST endpoints:
+
+| Domain | Category Documentation | Key Endpoints Covered |
+| :--- | :--- | :--- |
+| **Identity & Users** | [Users](./Users/Users_Graph_API_Endpoints.md) | `/users`, `/users/{id}/manager`, `/users/{id}/licenseDetails` |
+| | [Groups](./Groups/Groups_Graph_API_Endpoints.md) | `/groups`, `/groups/{id}/members`, `/groups/{id}/transitiveMembers` |
+| | [External Identities](./ExternalIdentities/ExternalIdentities_Graph_API_Endpoints.md) | `/invitations`, `/policies/crossTenantAccessPolicy` |
+| | [Administrative Units](./AdministrativeUnits/AdministrativeUnits_Graph_API_Endpoints.md) | `/directory/administrativeUnits`, `/scopedRoleMembers` |
+| | [Roles & Admins](./RolesAndAdministrators/RolesandAdministrator_Graph_API_Endpoints.md) | `/directoryRoles`, `/roleManagement/directory/roleAssignments` |
+| | [Delegated Admin Partners](./DelegatedAdminPartners/DelegatedAdminPartners_Graph_API_Endpoints.md) | `/contracts`, `/tenantRelationships/delegatedAdminCustomers` |
+| **Applications & Devices** | [App Registrations](./AppRegistrations/AppRegistrations_Graph_API_Endpoints.md) | `/applications`, `/applications/{id}/addPassword`, `/keyCredentials` |
+| | [Enterprise Applications](./EnterpriseApplications/EnterpriseApplications_Graph_API_Endpoints.md) | `/servicePrincipals`, `/appRoleAssignedTo`, `/claimsMappingPolicies` |
+| | [Devices](./Devices/Devices_Graph_API_Endpoints.md) | `/devices`, `/devices/{id}/registeredOwners`, `/registeredUsers` |
+| | [Application Proxy](./ApplicationProxy/Applicationproxy_Graph_API_Endpoints.md) | `/onPremisesPublishingProfiles/applicationProxy` |
+| **Governance & Security** | [Identity Governance](./IdentityGovernance/IdentityGovernance_Graph_API_Endpoints.md) | `/identityGovernance/entitlementManagement`, `/lifecycleWorkflows` |
+| | [Security & Conditional Access](./Security/Security.md) | `/identity/conditionalAccess/policies`, `/security/alerts_v2` |
+| | [Custom Security Attributes](./CustomSecurityAttributes/CustomSecurityAttributes_Graph_API_Endpoints.md) | `/directory/customSecurityAttributeDefinitions` |
+| | [Licenses](./Licenses/Licenses.md) | `/subscribedSkus`, `/directory/deletedItems` |
+| **Hybrid & Sync** | [Microsoft Entra Connect](./MicrosoftEntraConnect/MicrosoftEntraConnect_Graph_API_Endpoints.md) | `/directory/onPremisesDirectorySynchronization` |
+| | [Cloud Sync](./CloudSync/CloudSync.md) | `/servicePrincipals/{id}/synchronization/jobs` |
+| | [Provisioning (SCIM)](./Provisioning/Provisioning.md) | `/synchronization/jobs/{id}/schema`, `/synchronization/rules` |
+| | [Cross-Tenant Sync](./CrossTenantSynchronization/CrossTenantSynchronization_Graph_API_Endpoints.md) | `/policies/crossTenantAccessPolicy/partners` |
+| **Tenant Configuration** | [Custom Domain Names](./CustomDomainNames/CustomDomainNames_Graph_API_Endpoints.md) | `/domains`, `/domains/{id}/verify`, `/federationConfiguration` |
+| | [Password Reset (SSPR)](./PasswordReset/PasswordReset_Graph_API_Endpoints.md) | `/policies/authenticationMethodsPolicy`, `/userRegistrationDetails` |
+| | [Mobility (MDM/WIP)](./MobilityMDMWIP/MobilityMDMWIP_Graph_API_Endpoints.md) | `/policies/mobileDeviceManagementPolicies` |
+| | [Company Branding](./CompanyBranding/CompanyBranding_Graph_API_Endpoints.md) | `/organization/{id}/branding/localizations` |
+| | [User Settings](./UserSettings/UserSettings_Graph_API_Endpoints.md) | `/policies/authorizationPolicy`, `/policies/permissionGrantPolicies` |
+| | [Tenant Properties](./Properties/TenantProperties_Graph_API_Endpoints.md) | `/organization`, `/tenantRelationships` |
+| **Monitoring & Telemetry** | [Audit Logs](./AuditLogs/AuditLogs_Graph_API_Endpoints.md) | `/auditLogs/directoryAudits`, `/directory/provisioning` |
+| | [Sign-In Logs](./SignInLogs/SignInLogs_Graph_API_Endpoints.md) | `/auditLogs/signIns`, `/identityProtection/riskyUsers` |
+
+*For complete status and progress, see [ROADMAP.MD](./ROADMAP.MD).*
+
 ## 🚀 Quickstart & Prerequisites
 
 Ensure the modern Microsoft Graph PowerShell SDK v2 is installed:
