@@ -6,6 +6,9 @@
 [![SDK](https://img.shields.io/badge/Microsoft.Graph-v2.x-0078D4.svg)](https://www.powershellgallery.com/packages/Microsoft.Graph)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Cloud-Microsoft%20Entra%20ID-orange.svg)](https://cloudknowledge.in)
+[![Cheat Sheet](https://img.shields.io/badge/Download-A4%20PDF%20Cheat%20Sheet-brightgreen.svg)](./docs/Microsoft_Graph_SDK_v2_CheatSheet.pdf)
+
+> 📄 **Instant Download:** Grab the high-resolution [1-Page Microsoft Graph SDK v2 Printable Cheat Sheet (PDF)](./docs/Microsoft_Graph_SDK_v2_CheatSheet.pdf). Laminated physical copies available via **[PrintKrlo.in](https://printkrlo.in)**.
 
 Welcome to the **graph-api-toolkit** repository! This open-source repository provides production-tested, hardened PowerShell automation scripts built on top of the **Microsoft Graph PowerShell SDK v2** and **Microsoft Graph REST API (v1.0 & Beta)**.
 
@@ -102,6 +105,11 @@ Explore companion engineering deep-dives, architectural blueprints, and scenario
 ## 📺 Video Tutorials & Lab Demonstrations
 Watch full step-by-step labs and production walkthroughs on YouTube:
 👉 **[Cloud Knowledge Official Channel (@Cloud-Knowledge)](https://www.youtube.com/@Cloud-Knowledge)**
+
+## 🖨️ Physical Desk Reference & Laminated Cheat Sheets
+Need physical, laminated reference cheat sheets, architecture blueprints, or binding for study materials and lab notes?
+- **Order directly via [PrintKrlo.in](https://printkrlo.in)** — Smart Cyber Cafe & Online Xerox Kiosk.
+- High-quality document printing, spiral binding, and doorstep delivery for developers, cloud architects, and students.
 
 ---
 
